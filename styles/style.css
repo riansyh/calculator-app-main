@@ -1,0 +1,565 @@
+.theme1 {
+  background-color: #3a4764;
+}
+
+.theme1 header .toggle .radio, .theme1 main .keypad {
+  background-color: #232c43;
+}
+
+.theme1 main .screen-display {
+  background-color: #182034;
+}
+
+.theme1 main .keypad .text-button {
+  background-color: #637097;
+}
+
+.theme1 main .keypad .text-button {
+  -webkit-box-shadow: 0 4px 0px 0px #404e72;
+          box-shadow: 0 4px 0px 0px #404e72;
+}
+
+.theme1 header .toggle .radio .radio__input input:checked + .radio__control, .theme1 main .keypad .equal-button {
+  background-color: #d03f2f;
+}
+
+.theme1 main .keypad .equal-button {
+  -webkit-box-shadow: 0 4px 0px 0px #93261a;
+          box-shadow: 0 4px 0px 0px #93261a;
+}
+
+.theme1 main .keypad button {
+  background-color: #eae3dc;
+}
+
+.theme1 main .keypad button {
+  -webkit-box-shadow: 0 4px 0px 0px #b4a597;
+          box-shadow: 0 4px 0px 0px #b4a597;
+}
+
+.theme1 main .keypad button {
+  color: #444b5a;
+}
+
+.theme1 main .keypad .equal-button {
+  color: white;
+}
+
+.theme1 main .keypad .text-button {
+  color: white;
+}
+
+.theme1 {
+  color: white;
+}
+
+.theme2 {
+  background-color: #e6e6e6;
+}
+
+.theme2 header .toggle .radio, .theme2 main .keypad {
+  background-color: #d1cccc;
+}
+
+.theme2 main .screen-display {
+  background-color: #ededed;
+}
+
+.theme2 main .keypad .text-button {
+  background-color: #377f86;
+}
+
+.theme2 main .keypad .text-button {
+  -webkit-box-shadow: 0 4px 0px 0px #1b5f65;
+          box-shadow: 0 4px 0px 0px #1b5f65;
+}
+
+.theme2 header .toggle .radio .radio__input input:checked + .radio__control, .theme2 main .keypad .equal-button {
+  background-color: #ca5502;
+}
+
+.theme2 main .keypad .equal-button {
+  -webkit-box-shadow: 0 4px 0px 0px #893901;
+          box-shadow: 0 4px 0px 0px #893901;
+}
+
+.theme2 main .keypad button {
+  background-color: #e5e4e1;
+}
+
+.theme2 main .keypad button {
+  -webkit-box-shadow: 0 4px 0px 0px #a69d91;
+          box-shadow: 0 4px 0px 0px #a69d91;
+}
+
+.theme2 {
+  color: #35352c;
+}
+
+.theme2 main .keypad button {
+  color: #35352c;
+}
+
+.theme2 main .keypad .equal-button {
+  color: white;
+}
+
+.theme2 main .keypad .text-button {
+  color: white;
+}
+
+.theme3 {
+  background-color: #160628;
+}
+
+.theme3 header .toggle .radio, .theme3 main .keypad {
+  background-color: #1d0934;
+}
+
+.theme3 main .screen-display {
+  background-color: #1d0934;
+}
+
+.theme3 main .keypad .text-button {
+  background-color: #58077d;
+}
+
+.theme3 main .keypad .text-button {
+  -webkit-box-shadow: 0 4px 0px 0px #bc15f4;
+          box-shadow: 0 4px 0px 0px #bc15f4;
+}
+
+.theme3 header .toggle .radio .radio__input input:checked + .radio__control, .theme3 main .keypad .equal-button {
+  background-color: #00e0d1;
+}
+
+.theme3 main .keypad .equal-button {
+  -webkit-box-shadow: 0 4px 0px 0px 177, 92%, 70%;
+          box-shadow: 0 4px 0px 0px 177, 92%, 70%;
+}
+
+.theme3 main .keypad button {
+  background-color: #341c4f;
+}
+
+.theme3 main .keypad button {
+  -webkit-box-shadow: 0 4px 0px 0px #871c9c;
+          box-shadow: 0 4px 0px 0px #871c9c;
+}
+
+.theme3 {
+  color: #ffe53d;
+}
+
+.theme3 main .keypad button {
+  color: #ffe53d;
+}
+
+.theme3 main .keypad .equal-button {
+  color: #1b2428;
+}
+
+.theme3 main .keypad .text-button {
+  color: white;
+}
+
+.theme1 {
+  background-color: #3a4764;
+}
+
+.theme1 header .toggle .radio, .theme1 main .keypad {
+  background-color: #232c43;
+}
+
+.theme1 main .screen-display {
+  background-color: #182034;
+}
+
+.theme1 main .keypad .text-button {
+  background-color: #637097;
+}
+
+.theme1 main .keypad .text-button {
+  -webkit-box-shadow: 0 4px 0px 0px #404e72;
+          box-shadow: 0 4px 0px 0px #404e72;
+}
+
+.theme1 header .toggle .radio .radio__input input:checked + .radio__control, .theme1 main .keypad .equal-button {
+  background-color: #d03f2f;
+}
+
+.theme1 main .keypad .equal-button {
+  -webkit-box-shadow: 0 4px 0px 0px #93261a;
+          box-shadow: 0 4px 0px 0px #93261a;
+}
+
+.theme1 main .keypad button {
+  background-color: #eae3dc;
+}
+
+.theme1 main .keypad button {
+  -webkit-box-shadow: 0 4px 0px 0px #b4a597;
+          box-shadow: 0 4px 0px 0px #b4a597;
+}
+
+.theme1 main .keypad button {
+  color: #444b5a;
+}
+
+.theme1 main .keypad .equal-button {
+  color: white;
+}
+
+.theme1 main .keypad .text-button {
+  color: white;
+}
+
+.theme1 {
+  color: white;
+}
+
+.theme2 {
+  background-color: #e6e6e6;
+}
+
+.theme2 header .toggle .radio, .theme2 main .keypad {
+  background-color: #d1cccc;
+}
+
+.theme2 main .screen-display {
+  background-color: #ededed;
+}
+
+.theme2 main .keypad .text-button {
+  background-color: #377f86;
+}
+
+.theme2 main .keypad .text-button {
+  -webkit-box-shadow: 0 4px 0px 0px #1b5f65;
+          box-shadow: 0 4px 0px 0px #1b5f65;
+}
+
+.theme2 header .toggle .radio .radio__input input:checked + .radio__control, .theme2 main .keypad .equal-button {
+  background-color: #ca5502;
+}
+
+.theme2 main .keypad .equal-button {
+  -webkit-box-shadow: 0 4px 0px 0px #893901;
+          box-shadow: 0 4px 0px 0px #893901;
+}
+
+.theme2 main .keypad button {
+  background-color: #e5e4e1;
+}
+
+.theme2 main .keypad button {
+  -webkit-box-shadow: 0 4px 0px 0px #a69d91;
+          box-shadow: 0 4px 0px 0px #a69d91;
+}
+
+.theme2 {
+  color: #35352c;
+}
+
+.theme2 main .keypad button {
+  color: #35352c;
+}
+
+.theme2 main .keypad .equal-button {
+  color: white;
+}
+
+.theme2 main .keypad .text-button {
+  color: white;
+}
+
+.theme3 {
+  background-color: #160628;
+}
+
+.theme3 header .toggle .radio, .theme3 main .keypad {
+  background-color: #1d0934;
+}
+
+.theme3 main .screen-display {
+  background-color: #1d0934;
+}
+
+.theme3 main .keypad .text-button {
+  background-color: #58077d;
+}
+
+.theme3 main .keypad .text-button {
+  -webkit-box-shadow: 0 4px 0px 0px #bc15f4;
+          box-shadow: 0 4px 0px 0px #bc15f4;
+}
+
+.theme3 header .toggle .radio .radio__input input:checked + .radio__control, .theme3 main .keypad .equal-button {
+  background-color: #00e0d1;
+}
+
+.theme3 main .keypad .equal-button {
+  -webkit-box-shadow: 0 4px 0px 0px 177, 92%, 70%;
+          box-shadow: 0 4px 0px 0px 177, 92%, 70%;
+}
+
+.theme3 main .keypad button {
+  background-color: #341c4f;
+}
+
+.theme3 main .keypad button {
+  -webkit-box-shadow: 0 4px 0px 0px #871c9c;
+          box-shadow: 0 4px 0px 0px #871c9c;
+}
+
+.theme3 {
+  color: #ffe53d;
+}
+
+.theme3 main .keypad button {
+  color: #ffe53d;
+}
+
+.theme3 main .keypad .equal-button {
+  color: #1b2428;
+}
+
+.theme3 main .keypad .text-button {
+  color: white;
+}
+
+@font-face {
+  font-family: 'spartan';
+  src: url(https://fonts.google.com/specimen/Spartan);
+}
+
+.theme1 {
+  -webkit-transition: all 600ms ease-out;
+  transition: all 600ms ease-out;
+}
+
+.theme1 header .toggle .radio .radio__input input:checked + .radio__control {
+  -webkit-transition: ease-in-out 700ms;
+  transition: ease-in-out 700ms;
+}
+
+.theme2 {
+  -webkit-transition: all 600ms ease-out;
+  transition: all 600ms ease-out;
+}
+
+.theme2 header .toggle .radio .radio__input input:checked + .radio__control {
+  -webkit-transition: ease-in-out 700ms;
+  transition: ease-in-out 700ms;
+}
+
+.theme3 {
+  -webkit-transition: all 600ms ease-out;
+  transition: all 600ms ease-out;
+}
+
+.theme3 header .toggle .radio .radio__input input:checked + .radio__control {
+  -webkit-transition: ease-in-out 700ms;
+  transition: ease-in-out 700ms;
+}
+
+html,
+body {
+  min-height: 99%;
+}
+
+* {
+  font-family: spartan, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 450px) {
+  * {
+    font-size: 1.25rem;
+  }
+}
+
+body,
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 32px 16px;
+}
+
+body .container {
+  gap: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 540px;
+  width: 100%;
+}
+
+body .container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+body .container header .toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 12px;
+}
+
+body .container header .toggle h2 {
+  font-size: 0.7rem;
+}
+
+body .container header .toggle .switch-toggle .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1px 2px;
+}
+
+body .container header .toggle .switch-toggle .label label {
+  font-size: 0.7rem;
+}
+
+body .container header .toggle .switch-toggle .radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6px 8px;
+  gap: 4px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 30px;
+}
+
+body .container header .toggle .switch-toggle .radio:hover {
+  cursor: pointer;
+}
+
+body .container header .toggle .switch-toggle .radio .radio__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container header .toggle .switch-toggle .radio .radio__input input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+body .container header .toggle .switch-toggle .radio .radio__input .radio__control {
+  display: block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+}
+
+body .container main {
+  width: 100%;
+}
+
+body .container main .screen-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 32px 40px;
+  height: 120px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .container main .screen-display p {
+  font-size: 2rem;
+}
+
+body .container main .keypad {
+  display: -ms-grid;
+  display: grid;
+  padding: 32px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+  border-radius: 8px;
+}
+
+body .container main .keypad button {
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+body .container main .keypad button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+@media screen and (max-width: 450px) {
+  body .container main .keypad button {
+    padding: 8px 14px;
+  }
+}
+
+body .container main .keypad .reset-button {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+}
+
+body .container main .keypad .equal-button {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+}
+
+body .container main .keypad .text-button {
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=style.css.map */

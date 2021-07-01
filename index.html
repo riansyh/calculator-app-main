@@ -1,26 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body class="theme1">
+    <div class="container">
+      <header>
+        <h1 class="title">calc</h1>
+        <div class="toggle">
+          <h2>THEME</h2>
+          <div class="switch-toggle">
+            <div class="label">
+              <label for="">1</label>
+              <label for="">2</label>
+              <label for="">3</label>
+            </div>
+            <div class="radio">
+              <span class="radio__input">
+                <input type="radio" name="theme" id="input1" checked />
+                <span class="radio__control" id="change1"></span>
+              </span>
+              <span class="radio__input">
+                <input type="radio" name="theme" id="input2" />
+                <span class="radio__control" id="change2"></span>
+              </span>
+              <span class="radio__input">
+                <input type="radio" name="theme" id="input3" />
+                <span class="radio__control" id="change3"></span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="screen-display">
+          <p>213</p>
+        </div>
+        <div class="keypad">
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button class="text-button">DEL</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>+</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>-</button>
+          <button>.</button>
+          <button>0</button>
+          <button>/</button>
+          <button>x</button>
+          <button class="reset-button text-button">RESET</button>
+          <button class="equal-button">=</button>
+        </div>
+      </main>
+    </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Calculator app</title>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://riansyh.github.io">Rian Febriansyah</a>.
+    </div> -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <script src="/script/main.js"></script>
+  </body>
 </html>

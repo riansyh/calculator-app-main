@@ -1,0 +1,152 @@
+@import 'variable';
+@import 'mixin';
+@import 'theme';
+
+@font-face {
+  font-family: 'spartan';
+  src: url(https://fonts.google.com/specimen/Spartan);
+}
+
+@include use-theme(1, 'theme1');
+@include use-theme(2, 'theme2');
+@include use-theme(3, 'theme3');
+
+html,
+body {
+  min-height: 99%;
+}
+
+* {
+  font-family: spartan, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @media screen and (max-width: 450px) {
+    font-size: 1.25rem;
+  }
+}
+
+body,
+.container {
+  @include flex-column;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+
+  .container {
+    gap: 24px;
+    align-items: center;
+    max-width: 540px;
+    width: 100%;
+
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      width: 100%;
+
+      .toggle {
+        @include flex-row;
+        align-items: flex-end;
+        gap: 12px;
+        h2 {
+          font-size: 0.7rem;
+        }
+        .switch-toggle {
+          .label {
+            @include flex-row;
+            justify-content: space-around;
+            padding: 1px 2px;
+            label {
+              font-size: 0.7rem;
+            }
+          }
+          .radio {
+            @include flex-row;
+            padding: 6px 8px;
+            gap: 4px;
+            justify-content: space-around;
+            border-radius: 30px;
+
+            &:hover {
+              cursor: pointer;
+            }
+
+            .radio__input {
+              @include flex-row;
+              input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+              }
+
+              .radio__control {
+                display: block;
+                width: 0.5em;
+                height: 0.5em;
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    main {
+      width: 100%;
+      .screen-display {
+        @include flex-column;
+        padding: 32px 40px;
+        height: 120px;
+        border-radius: 8px;
+        margin-bottom: 24px;
+        justify-content: center;
+        align-items: flex-end;
+
+        p {
+          font-size: 2rem;
+        }
+      }
+
+      .keypad {
+        display: grid;
+        padding: 32px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 24px;
+        border-radius: 8px;
+
+        button {
+          padding: 16px;
+          border-radius: 8px;
+          border: none;
+
+          &:active {
+            box-shadow: none;
+            transform: translateY(4px);
+          }
+
+          @media screen and (max-width: 450px) {
+            padding: 8px 14px;
+          }
+        }
+
+        .reset-button {
+          grid-column-start: 1;
+          grid-column-end: span 2;
+        }
+        .equal-button {
+          grid-column-start: 3;
+          grid-column-end: span 2;
+        }
+        .text-button {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

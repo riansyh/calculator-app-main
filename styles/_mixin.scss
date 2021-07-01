@@ -1,0 +1,13 @@
+$green: green;
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-row {
+  display: flex;
+}
+
+@mixin shadow($color) {
+  box-shadow: 0 4px 0px 0px $color;
+}
