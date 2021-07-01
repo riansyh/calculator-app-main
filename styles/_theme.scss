@@ -1,0 +1,50 @@
+@import 'variable';
+@import 'mixin';
+
+@mixin use-theme($number, $name) {
+  .#{$name} {
+    transition: all 600ms ease-out;
+    @extend %theme-#{$number}-main-bg;
+    @extend %theme-#{$number}-text-main;
+
+    header {
+      .toggle {
+        .radio {
+          @extend %theme-#{$number}-toggle-bg;
+          .radio__input input:checked + .radio__control {
+            @extend %theme-#{$number}-key-toggle-bg;
+            transition: ease-in-out 700ms;
+          }
+        }
+      }
+    }
+
+    main {
+      .screen-display {
+        @extend %theme-#{$number}-screen-bg;
+      }
+
+      .keypad {
+        @extend %theme-#{$number}-toggle-bg;
+
+        button {
+          @extend %theme-#{$number}-key-main-bg;
+          @extend %theme-#{$number}-key-main-shadow;
+          @extend %theme-#{$number}-text-keypad;
+        }
+
+        .text-button {
+          @extend %theme-#{$number}-key-bg;
+          @extend %theme-#{$number}-key-shadow;
+          @extend %theme-#{$number}-text-text;
+        }
+
+        .equal-button {
+          @extend %theme-#{$number}-key-toggle-bg;
+          @extend %theme-#{$number}-key-toggle-shadow;
+          @extend %theme-#{$number}-text-equal;
+        }
+      }
+    }
+  }
+}
