@@ -539,6 +539,10 @@ body .container main .keypad button:active {
           transform: translateY(4px);
 }
 
+body .container main .keypad button:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 450px) {
   body .container main .keypad button {
     padding: 8px 14px;

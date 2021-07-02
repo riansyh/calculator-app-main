@@ -130,6 +130,10 @@ body {
             transform: translateY(4px);
           }
 
+          &:hover {
+            cursor: pointer;
+          }
+
           @media screen and (max-width: 450px) {
             padding: 8px 14px;
           }
