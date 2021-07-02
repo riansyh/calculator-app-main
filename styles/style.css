@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap");
 .theme1 {
   background-color: #3a4764;
 }
@@ -6,7 +7,7 @@
   background-color: #232c43;
 }
 
-.theme1 main .screen-display {
+.theme1 main .screen-display, .theme1 .attribution {
   background-color: #182034;
 }
 
@@ -49,7 +50,7 @@
   color: white;
 }
 
-.theme1 {
+.theme1, .theme1 .attribution {
   color: white;
 }
 
@@ -61,7 +62,7 @@
   background-color: #d1cccc;
 }
 
-.theme2 main .screen-display {
+.theme2 main .screen-display, .theme2 .attribution {
   background-color: #ededed;
 }
 
@@ -92,7 +93,7 @@
           box-shadow: 0 4px 0px 0px #a69d91;
 }
 
-.theme2 {
+.theme2, .theme2 .attribution {
   color: #35352c;
 }
 
@@ -116,7 +117,7 @@
   background-color: #1d0934;
 }
 
-.theme3 main .screen-display {
+.theme3 main .screen-display, .theme3 .attribution {
   background-color: #1d0934;
 }
 
@@ -147,7 +148,7 @@
           box-shadow: 0 4px 0px 0px #871c9c;
 }
 
-.theme3 {
+.theme3, .theme3 .attribution {
   color: #ffe53d;
 }
 
@@ -163,6 +164,18 @@
   color: white;
 }
 
+.theme1 .attribution a {
+  color: #d03f2f;
+}
+
+.theme2 .attribution a {
+  color: #ca5502;
+}
+
+.theme3 .attribution a {
+  color: #00e0d1;
+}
+
 .theme1 {
   background-color: #3a4764;
 }
@@ -171,7 +184,7 @@
   background-color: #232c43;
 }
 
-.theme1 main .screen-display {
+.theme1 main .screen-display, .theme1 .attribution {
   background-color: #182034;
 }
 
@@ -214,7 +227,7 @@
   color: white;
 }
 
-.theme1 {
+.theme1, .theme1 .attribution {
   color: white;
 }
 
@@ -226,7 +239,7 @@
   background-color: #d1cccc;
 }
 
-.theme2 main .screen-display {
+.theme2 main .screen-display, .theme2 .attribution {
   background-color: #ededed;
 }
 
@@ -257,7 +270,7 @@
           box-shadow: 0 4px 0px 0px #a69d91;
 }
 
-.theme2 {
+.theme2, .theme2 .attribution {
   color: #35352c;
 }
 
@@ -281,7 +294,7 @@
   background-color: #1d0934;
 }
 
-.theme3 main .screen-display {
+.theme3 main .screen-display, .theme3 .attribution {
   background-color: #1d0934;
 }
 
@@ -312,7 +325,7 @@
           box-shadow: 0 4px 0px 0px #871c9c;
 }
 
-.theme3 {
+.theme3, .theme3 .attribution {
   color: #ffe53d;
 }
 
@@ -328,9 +341,16 @@
   color: white;
 }
 
-@font-face {
-  font-family: 'spartan';
-  src: url(https://fonts.google.com/specimen/Spartan);
+.theme1 .attribution a {
+  color: #d03f2f;
+}
+
+.theme2 .attribution a {
+  color: #ca5502;
+}
+
+.theme3 .attribution a {
+  color: #00e0d1;
 }
 
 .theme1 {
@@ -369,7 +389,7 @@ body {
 }
 
 * {
-  font-family: spartan, sans-serif;
+  font-family: 'Spartan', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   margin: 0;
@@ -500,6 +520,7 @@ body .container main .screen-display {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
   padding: 32px 40px;
   height: 120px;
   border-radius: 8px;
@@ -514,6 +535,14 @@ body .container main .screen-display {
 
 body .container main .screen-display p {
   font-size: 2rem;
+}
+
+body .container main .screen-display p.operator {
+  font-size: 1rem;
+  position: absolute;
+  margin: 8px;
+  top: 0;
+  left: 0;
 }
 
 body .container main .keypad {
@@ -565,5 +594,36 @@ body .container main .keypad .equal-button {
 
 body .container main .keypad .text-button {
   font-size: 1.1rem;
+}
+
+.attribution,
+.attribution a {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+.attribution {
+  margin-top: 32px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.attribution a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    font-size: 1.1rem;
+  }
+  body .container main .keypad {
+    gap: 16px;
+    padding: 20px;
+  }
+  body .container main .keypad button {
+    padding: 8px 8px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

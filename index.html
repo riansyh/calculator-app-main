@@ -10,7 +10,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <title>Frontend Mentor | Calculator app</title>
+    <title>Calculator app - by Rian Febriansyah</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body class="theme1">
@@ -44,37 +44,38 @@
       </header>
       <main>
         <div class="screen-display">
-          <p>213</p>
+          <p class="operator" id="displayOperator"></p>
+          <p id="displayNumber">0</p>
         </div>
         <div class="keypad">
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button class="text-button">DEL</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>+</button>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>-</button>
-          <button>.</button>
-          <button>0</button>
-          <button>/</button>
-          <button>x</button>
-          <button class="reset-button text-button">RESET</button>
-          <button class="equal-button">=</button>
+          <button class="button">7</button>
+          <button class="button">8</button>
+          <button class="button">9</button>
+          <button class="button text-button delete-button">DEL</button>
+          <button class="button">4</button>
+          <button class="button">5</button>
+          <button class="button">6</button>
+          <button class="button operator">+</button>
+          <button class="button">1</button>
+          <button class="button">2</button>
+          <button class="button">3</button>
+          <button class="button operator">-</button>
+          <button class="button comma">.</button>
+          <button class="button">0</button>
+          <button class="button operator">/</button>
+          <button class="button operator">x</button>
+          <button class="button reset-button text-button">RESET</button>
+          <button class="button equal-button">=</button>
         </div>
       </main>
     </div>
 
-    <!-- <div class="attribution">
+    <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="https://riansyh.github.io">Rian Febriansyah</a>.
-    </div> -->
+    </div>
 
     <script src="/script/main.js"></script>
   </body>

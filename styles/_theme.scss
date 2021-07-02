@@ -46,5 +46,14 @@
         }
       }
     }
+
+    .attribution {
+      @extend %theme-#{$number}-screen-bg;
+      @extend %theme-#{$number}-text-main;
+
+      a {
+        @extend %theme-#{$number}-link;
+      }
+    }
   }
 }
