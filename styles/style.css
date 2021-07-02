@@ -533,6 +533,12 @@ body .container main .screen-display {
           align-items: flex-end;
 }
 
+@media screen and (max-width: 530px) {
+  body .container main .screen-display {
+    overflow-x: scroll;
+  }
+}
+
 body .container main .screen-display p {
   font-size: 2rem;
 }
@@ -601,6 +607,7 @@ body .container main .keypad .text-button {
   font-weight: 600;
   font-size: 14px;
   text-align: center;
+  line-height: 160%;
 }
 
 .attribution {
@@ -623,6 +630,18 @@ body .container main .keypad .text-button {
     padding: 20px;
   }
   body .container main .keypad button {
+    padding: 8px 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body .container main .screen-display {
+    padding: 16px;
+  }
+  body .container main .screen-display p {
+    font-size: 1.6rem;
+  }
+  body .container main .screen-display button {
     padding: 8px 8px;
   }
 }
